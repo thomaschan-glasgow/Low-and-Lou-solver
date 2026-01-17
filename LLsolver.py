@@ -5,7 +5,7 @@ from scipy.integrate import solve_ivp
 # ------------------------------------------------------------
 # UFiT path
 # ------------------------------------------------------------
-UFiT_home_directory = "C:/Users/thoma/Documents/UFiT"
+UFiT_home_directory = "change this path"
 sys.path.append(UFiT_home_directory)
 from UFiT_Functions_Python import write_B_file
 
@@ -156,3 +156,4 @@ write_B_file(x, y, z, B_ufit, "LL.bin")
 print("Low & Lou NLFFF field written for UFiT")
 print("B shape:", B_ufit.shape)
 print("B min/max:", B.min(), B.max())
+
